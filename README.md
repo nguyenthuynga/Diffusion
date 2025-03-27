@@ -12,7 +12,7 @@ If you have any questions or need clarification on any aspect of the code, pleas
 
 ### Acknowledgements
 
-This tutorial is based on the work available at [Original Tutorial](https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing#scrollTo=XCR6m0HjWGVV).
+This tutorial is based on the methods of [This paper](https://arxiv.org/pdf/2011.13456.pdf) available at [Original Code for MNIST dataset with 2D setting and unconditiona generative model](https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing#scrollTo=XCR6m0HjWGVV).
 
 
 
