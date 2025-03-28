@@ -1,10 +1,11 @@
 # Score-Based Generative Modeling: Application for Space-Time Interpolation for Sea Surface Turbidity Reconstruction
 This tutorial introduces a 3D input setting (2D spatial dimensions + 1D time series) using Unet3D with convolutional 3D layers.
 
-The objective of this code is to perform interpolation (or fill gaps or conduct image inpainting) for sea surface turbidity datasets obtained through remote sensing.
+The objective of this code is to perform interpolation (or fill gaps or conduct image inpainting) for sea surface turbidity datasets obtained through remote sensing as example below: 
 
 
 ![ncsnv2](https://github.com/nguyenthuynga/Diffusion/blob/main/Images/diffusion_generative.png?raw=true)
+(The left is the gappy input that we want to do interpolation, the right is the ground truth. The three middle ones are three samples of the generative models)
 
 You can access the code, download the data, and read more about the case study in the notebook SPM_conditionalMask_cropArea_DWS_3D_Conv3D_tutorial_March26th2025.ipynb. Notes
 By increasing number of training epochs (n_epochs to 1000), increasing number of steps in sampling method (num_steps to 1000 or 2000 for example), and increasing the number of samples (N_experiments to 10 or more for examples), and increase the channels of UNet to [64, 128, 256, 512], we'll get a better interpolation, however it will increase the computing time a lot.
